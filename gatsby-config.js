@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter SaaS Marketing`,
-    description: `A simple one page marketing starter for saas companies.`,
-    author: `Keegan Burkett`,
+    title: `Figma Flopbook`,
+    description: `Animate your figma design`,
+    author: `Sonny Lazuardi`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
