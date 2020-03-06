@@ -1,6 +1,6 @@
 ## Figma Flipbook Website
 
-[Live Demo: https://gatsby-starter-saas-marketing.netlify.com/ ](https://gatsby-starter-saas-marketing.netlify.com/)
+[Live Demo: https://figma-flipbook.now.sh/ ](https://figma-flipbook.now.sh/)
 
 ### Getting started
 
