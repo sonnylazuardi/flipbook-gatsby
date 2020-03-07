@@ -15,7 +15,9 @@ const GetStarted = () => (
         Upgrade to Flipbook Pro
       </TryItButton>
       <Subtitle>
-        Upgrading to Flipbook Pro means that you already support the creator
+        Upgrading to Flipbook Pro means that
+        <br />
+        you already support the creator
       </Subtitle>
     </GetStartedContainer>
   </StyledSection>
@@ -75,5 +77,6 @@ const Subtitle = styled.span`
   ${props => props.theme.font_size.xxsmall}
   padding-top: 16px;
   font-size: 14px;
+  text-align: center;
   color: ${props => props.theme.color.white.regular};
 `

@@ -4,32 +4,67 @@ import styled from "styled-components"
 import { Section, Container } from "../global"
 
 const Features = () => (
-  <Section id="features">
-    <StyledContainer>
-      <Subtitle>Features</Subtitle>
-      <SectionTitle>One-stop plugin to animate your design</SectionTitle>
-      <FeaturesGrid>
-        <FeatureItem>
-          <FeatureTitle>Live Preview</FeatureTitle>
-          <FeatureText>
-            You can see changes for your animation in real-time
-          </FeatureText>
-        </FeatureItem>
-        <FeatureItem>
-          <FeatureTitle>Speed Settings</FeatureTitle>
-          <FeatureText>Tweak your animation speed with a slider</FeatureText>
-        </FeatureItem>
-        <FeatureItem>
-          <FeatureTitle>Reversed Animation</FeatureTitle>
-          <FeatureText>Reverse your animation backward</FeatureText>
-        </FeatureItem>
-        <FeatureItem>
-          <FeatureTitle>Export to GIF</FeatureTitle>
-          <FeatureText>Save your animation to a GIF file</FeatureText>
-        </FeatureItem>
-      </FeaturesGrid>
-    </StyledContainer>
-  </Section>
+  <React.Fragment>
+    <Section id="features">
+      <StyledContainer>
+        <Subtitle>Features</Subtitle>
+        <SectionTitle>One-stop plugin to animate your design</SectionTitle>
+        <FeaturesGrid>
+          <FeatureItem>
+            <FeatureTitle>Live Preview</FeatureTitle>
+            <FeatureText>See changes your changes in real-time</FeatureText>
+          </FeatureItem>
+          <FeatureItem>
+            <FeatureTitle>Speed Settings</FeatureTitle>
+            <FeatureText>Tweak your animation speed easily</FeatureText>
+          </FeatureItem>
+          <FeatureItem>
+            <FeatureTitle>Reversed Animation</FeatureTitle>
+            <FeatureText>Reverse your animation backward</FeatureText>
+          </FeatureItem>
+          <FeatureItem>
+            <FeatureTitle>Export to GIF</FeatureTitle>
+            <FeatureText>Save your animation to a GIF file</FeatureText>
+          </FeatureItem>
+        </FeaturesGrid>
+      </StyledContainer>
+    </Section>
+    <Section id="pricing">
+      <StyledContainer>
+        <Subtitle>
+          Free for everyone and the Pro for these who want full feature
+        </Subtitle>
+        <SectionTitle>Simple Pricing</SectionTitle>
+        <FeaturesGrid>
+          <FeatureItem>
+            <FeatureTitle>Free</FeatureTitle>
+            <FeatureText>Unlimited Animate</FeatureText>
+            <FeatureText>Live Preview</FeatureText>
+            <FeatureText>Custom Speed</FeatureText>
+            <FeatureText>Export to GIF</FeatureText>
+            <FeatureText>Watermark</FeatureText>
+          </FeatureItem>
+          <FeatureItem>
+            <FeatureTitle>Pro</FeatureTitle>
+            <FeatureText>
+              <div style={{ fontFamily: "HK Grotesk Bold" }}>
+                14.44 USD <span style={{ color: "#999" }}>(20 SGD)</span>
+                <br />
+                one-time payment
+              </div>
+            </FeatureText>
+            <FeatureText>Unlimited Animate</FeatureText>
+            <FeatureText>Live Preview</FeatureText>
+            <FeatureText>Custom Speed</FeatureText>
+            <FeatureText>Export to GIF</FeatureText>
+            <FeatureText>Pro Badge & Cleaner Menu</FeatureText>
+            <FeatureText>No Watermark</FeatureText>
+          </FeatureItem>
+        </FeaturesGrid>
+        <FeaturesGrid></FeaturesGrid>
+      </StyledContainer>
+    </Section>
+  </React.Fragment>
 )
 
 export default Features

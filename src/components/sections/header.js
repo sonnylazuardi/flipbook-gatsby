@@ -58,7 +58,7 @@ const Header = () => {
             </HeaderForm>
           </HeaderTextGroup>
           <ImageWrapper>
-            <img src={Demo} style={{ width: 550 }} />
+            <img src={Demo} style={{ width: 550, maxWidth: "100%" }} />
             <br />
           </ImageWrapper>
         </Flex>
