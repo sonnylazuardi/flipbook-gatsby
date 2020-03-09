@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Figma Flopbook`,
+    title: `Figma Flipbook`,
     description: `Animate your figma design`,
     author: `Sonny Lazuardi`,
+    image: `ss.png`,
+    twitterUsername: "sonnylazuardi",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -37,7 +39,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`,
+        icon: `src/images/logosmall.png`,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

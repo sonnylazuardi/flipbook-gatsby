@@ -12,7 +12,7 @@ const Features = () => (
         <FeaturesGrid>
           <FeatureItem>
             <FeatureTitle>Live Preview</FeatureTitle>
-            <FeatureText>See changes your changes in real-time</FeatureText>
+            <FeatureText>See your changes in real-time</FeatureText>
           </FeatureItem>
           <FeatureItem>
             <FeatureTitle>Speed Settings</FeatureTitle>
@@ -29,7 +29,7 @@ const Features = () => (
         </FeaturesGrid>
       </StyledContainer>
     </Section>
-    <Section id="pricing">
+    {/* <Section id="pricing">
       <StyledContainer>
         <Subtitle>
           Free for everyone and the Pro for these who want full feature
@@ -58,12 +58,14 @@ const Features = () => (
             <FeatureText>Custom Speed</FeatureText>
             <FeatureText>Export to GIF</FeatureText>
             <FeatureText>Pro Badge & Cleaner Menu</FeatureText>
+            <FeatureText>Onion Skin (Roadmap)</FeatureText>
+            <FeatureText>Animated SVG / Lottie Export (Roadmap)</FeatureText>
             <FeatureText>No Watermark</FeatureText>
           </FeatureItem>
         </FeaturesGrid>
         <FeaturesGrid></FeaturesGrid>
       </StyledContainer>
-    </Section>
+    </Section> */}
   </React.Fragment>
 )
 

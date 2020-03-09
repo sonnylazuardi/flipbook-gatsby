@@ -10,15 +10,25 @@ const Footer = () => (
       <FooterColumn>
         <span>Resources</span>
         <ul>
-          <li>Figma</li>
-          <li>Flipbook</li>
+          <li>
+            <a href="https://www.figma.com/community/plugin/817604235833854051/Flipbook">
+              Flipbook Plugin
+            </a>
+          </li>
+          <li>
+            <a href="https://figma.com">Figma</a>
+          </li>
         </ul>
       </FooterColumn>
       <FooterColumn>
-        <span>About</span>
+        <span>Contact</span>
         <ul>
-          <li>Author</li>
-          <li>Github</li>
+          <li>
+            <a href="https://twitter.com/sonnylazuardi">Twitter</a>
+          </li>
+          <li>
+            <a href="https://github.com/sonnylazuardi">Github</a>
+          </li>
         </ul>
       </FooterColumn>
     </FooterColumnContainer>

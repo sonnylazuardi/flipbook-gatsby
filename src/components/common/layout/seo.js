@@ -12,6 +12,8 @@ const SEO = ({ description, lang, meta, title }) => {
             title
             description
             author
+            image
+            twitterUsername
           }
         }
       }
@@ -45,6 +47,18 @@ const SEO = ({ description, lang, meta, title }) => {
           content: `website`,
         },
         {
+          property: `og:image`,
+          content: site.siteMetadata.image,
+        },
+        {
+          property: `twitter:image`,
+          content: site.siteMetadata.image,
+        },
+        {
+          property: `twitter:creator`,
+          content: site.siteMetadata.twitterUsername,
+        },
+        {
           name: `twitter:card`,
           content: `summary`,
         },
@@ -61,7 +75,7 @@ const SEO = ({ description, lang, meta, title }) => {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    ></Helmet>
   )
 }
 

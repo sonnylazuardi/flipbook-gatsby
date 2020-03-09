@@ -6,7 +6,7 @@ import { Container, Section } from "../global"
 const GetStarted = () => (
   <StyledSection>
     <GetStartedContainer>
-      <GetStartedTitle>No Watermark, 100% Your Design</GetStartedTitle>
+      {/* <GetStartedTitle>No Watermark, 100% Your Design</GetStartedTitle>
       <TryItButton
         onClick={() => {
           window.location.href = "https://gumroad.com/l/Dnxyh"
@@ -18,7 +18,19 @@ const GetStarted = () => (
         Upgrading to Flipbook Pro means that
         <br />
         you already support the creator
-      </Subtitle>
+      </Subtitle> */}
+      <GetStartedTitle>
+        Can’t wait to share Flipbook with you.
+        <br />
+        Until then, join the waitlist for the Beta.
+      </GetStartedTitle>
+      <TryItButton
+        onClick={() => {
+          window.location.href = "#"
+        }}
+      >
+        Request Beta Invite
+      </TryItButton>
     </GetStartedContainer>
   </StyledSection>
 )

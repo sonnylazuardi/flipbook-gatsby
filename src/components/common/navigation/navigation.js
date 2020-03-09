@@ -16,7 +16,8 @@ import {
   ActionsContainer,
 } from "./style"
 
-const NAV_ITEMS = ["Features", "Pricing", "Upgrade", ""]
+// const NAV_ITEMS = ["Features", "Pricing", "Upgrade", ""]
+const NAV_ITEMS = ["Features", "Upgrade"]
 
 export default class Navigation extends Component {
   state = {
@@ -110,14 +111,14 @@ export default class Navigation extends Component {
 
           <Mobile hide>{this.getNavList({})}</Mobile>
           <ActionsContainer>
-            <button
+            {/* <button
               onClick={() => {
                 window.location.href =
                   "https://www.figma.com/community/plugin/817604235833854051/Flipbook"
               }}
             >
               Download Plugin
-            </button>
+            </button> */}
           </ActionsContainer>
         </StyledContainer>
         <Mobile>
