@@ -11,7 +11,7 @@ import GetStarted from "../components/sections/getstarted"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Figma Flipbook" />
     <Navigation />
     <Header />
     <Features />
