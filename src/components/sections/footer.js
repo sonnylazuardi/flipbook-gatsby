@@ -11,7 +11,7 @@ const Footer = () => (
         <span>Resources</span>
         <ul>
           <li>
-            <a href="https://www.figma.com/community/plugin/817604235833854051/Flipbook">
+            <a href="https://www.figma.com/community/plugin/823077195186711433/Flipbook">
               Flipbook Plugin
             </a>
           </li>
