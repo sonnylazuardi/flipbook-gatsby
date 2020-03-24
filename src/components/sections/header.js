@@ -35,7 +35,7 @@ const Header = () => {
               and GIF file export
             </h2>
             <HeaderForm onSubmit={handleSubmit}>
-              {/* <HeaderButton
+              <HeaderButton
                 onClick={() => {
                   window.location.href = "https://gumroad.com/l/Dnxyh"
                 }}
@@ -46,41 +46,10 @@ const Header = () => {
                 secondary={true}
                 onClick={() => {
                   window.location.href =
-                    "https://www.figma.com/community/plugin/817604235833854051/Flipbook"
+                    "https://www.figma.com/community/plugin/823077195186711433/Flipbook"
                 }}
               >
                 Try Flipbook For Free
-              </HeaderButton> */}
-              <HeaderInput
-                placeholder="Your email"
-                value={email}
-                onChange={e => setEmail(e.target.value)}
-              />
-              <HeaderButton
-                onClick={() => {
-                  if (validateEmail(email) && !loading) {
-                    setLoading(true)
-                    fetch(`https://plugin-api.sonnylab.com/users`, {
-                      method: "post",
-                      headers: {
-                        "Content-Type": "application/json",
-                      },
-                      body: JSON.stringify({
-                        email: email,
-                      }),
-                    })
-                      .then(res => res.json())
-                      .then(data => {
-                        setLoading(false)
-                        setEmail("")
-                        alert("Invite requested")
-                      })
-                  } else {
-                    alert("Please enter a valid email")
-                  }
-                }}
-              >
-                {loading ? "Requesting..." : "Request Beta Invite"}
               </HeaderButton>
             </HeaderForm>
           </HeaderTextGroup>

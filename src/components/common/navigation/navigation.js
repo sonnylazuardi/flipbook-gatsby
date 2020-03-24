@@ -111,14 +111,14 @@ export default class Navigation extends Component {
 
           <Mobile hide>{this.getNavList({})}</Mobile>
           <ActionsContainer>
-            {/* <button
+            <button
               onClick={() => {
                 window.location.href =
-                  "https://www.figma.com/community/plugin/817604235833854051/Flipbook"
+                  "https://www.figma.com/community/plugin/823077195186711433/Flipbook"
               }}
             >
               Download Plugin
-            </button> */}
+            </button>
           </ActionsContainer>
         </StyledContainer>
         <Mobile>
