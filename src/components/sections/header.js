@@ -25,15 +25,23 @@ const Header = () => {
         <Flex>
           <HeaderTextGroup>
             <Subtitle>Compatible with Figma</Subtitle>
-            <h1>
-              Animate your
-              <br />
-              figma design
-            </h1>
+            <h1>Animate your figma design</h1>
             <h2>
               With live-preview, customizable speed, <br />
               and GIF file export
             </h2>
+            <a
+              href="https://www.producthunt.com/posts/flipbook?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-flipbook"
+              target="_blank"
+            >
+              <img
+                src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=189271&theme=light"
+                alt="Flipbook - Animate your figma design in real-time preview export to GIF | Product Hunt Embed"
+                style={{ width: 250, height: 54, marginBottom: 16 }}
+                width="250px"
+                height="54px"
+              />
+            </a>
             <HeaderForm onSubmit={handleSubmit}>
               <HeaderButton
                 onClick={() => {
