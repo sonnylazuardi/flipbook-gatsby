@@ -57,6 +57,7 @@ const Features = () => (
             <FeatureText>Live Preview</FeatureText>
             <FeatureText>Custom Speed</FeatureText>
             <FeatureText>Export to GIF</FeatureText>
+            <FeatureText>Export to MP4</FeatureText>
             <FeatureText>Pro Badge & Cleaner Menu</FeatureText>
             <FeatureText>Onion Skin</FeatureText>
             <FeatureText>No Watermark</FeatureText>
