@@ -28,7 +28,7 @@ const Header = () => {
             <h1>Animate your figma design</h1>
             <h2>
               With live-preview, customizable speed, <br />
-              and GIF file export
+              and GIF/MP4 file export
             </h2>
             <a
               href="https://www.producthunt.com/posts/flipbook?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-flipbook"
