@@ -23,8 +23,10 @@ const Features = () => (
             <FeatureText>Reverse your animation backward</FeatureText>
           </FeatureItem>
           <FeatureItem>
-            <FeatureTitle>Export to GIF</FeatureTitle>
-            <FeatureText>Save your animation to a GIF file</FeatureText>
+            <FeatureTitle>Export to GIF/MP4</FeatureTitle>
+            <FeatureText>
+              Save your animation to a GIF/MP4 video file
+            </FeatureText>
           </FeatureItem>
         </FeaturesGrid>
       </StyledContainer>
