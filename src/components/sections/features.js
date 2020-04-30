@@ -24,9 +24,7 @@ const Features = () => (
           </FeatureItem>
           <FeatureItem>
             <FeatureTitle>Export to GIF/MP4</FeatureTitle>
-            <FeatureText>
-              Save your animation to a GIF/MP4 video file
-            </FeatureText>
+            <FeatureText>Share your works with GIF/MP4</FeatureText>
           </FeatureItem>
         </FeaturesGrid>
       </StyledContainer>
